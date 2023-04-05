@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="star-container">
+            <div class="star-icon">
+                <div class="star">
+                    <span class="star-rating" data-tab="tab-1" id="0"><i class="fa fa-solid fa-star"></i></span>
+                    <span class="star-rating" data-tab="tab-2" id="1"><i class="fa fa-solid fa-star"></i></span>
+                    <span class="star-rating" data-tab="tab-3" id="2"><i class="fa fa-solid fa-star"></i></span>
+                    <span class="star-rating" data-tab="tab-4" id="3"><i class="fa fa-solid fa-star"></i></span>
+                    <span class="star-rating" data-tab="tab-5" id="4"><i class="fa fa-solid fa-star"></i></span>
+                </div>
+            </div>
+
+            <div class="star-content-area">
+                <div id="tab-1" class="star-content">
+                    <div class="text-area">
+                        <p class="head">Food was Disaster</p>
+                        <input type="text" placeholder="Describe your experience" class="input-box">
+                        <button class="sub-btn">Post</button>
+                    </div>
+                </div>
+                <div id="tab-2" class="star-content">
+                    <div class="text-area">
+                        <p class="head">I don't like it</p>
+                        <input type="text" placeholder="Describe your experience" class="input-box">
+                        <button class="sub-btn">Post</button>
+                    </div>
+                </div>
+                <div id="tab-3" class="star-content">
+                    <div class="text-area">
+                        <p class="head">Food was normal</p>
+                        <input type="text" placeholder="Describe your experience" class="input-box">
+                        <button class="sub-btn">Post</button>
+                    </div>
+                </div>
+                <div id="tab-4" class="star-content">
+                    <div class="text-area">
+                        <p class="head"> Food was Good</p>
+                        <input type="text" placeholder="Describe your experience" class="input-box">
+                        <button class="sub-btn">Post</button>
+                    </div>
+                </div>
+                <div id="tab-5" class="star-content">
+                    <div class="text-area">
+                        <p class="head"> Food was Excellent</p>
+                        <input type="text" placeholder="Describe your experience" class="input-box">
+                        <button class="sub-btn">Post</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
